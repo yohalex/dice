@@ -35,7 +35,7 @@ function dice() {
   }
 
   if (userPlayed > ComputerPlayed) {
-    resultat.innerText = "Bravo vous avez gagner";
+    resultat.innerText = "Bravo vous avez gagné";
     resultat.style.color = "#00BCF2";
   } else if (userPlayed < ComputerPlayed) {
     resultat.innerText = "Pfff vous avez perdu";
